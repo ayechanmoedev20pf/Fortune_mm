@@ -16,46 +16,66 @@
     </div>
 
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 centered">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 ml-16 centered">
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/animal-health.jpg') }}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">ANIMAL HEALTH</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/animal-health.jpg') }}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/animalhealth">ANIMAL HEALTH</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/healthcare.jpg')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">HEALTHCARE & PHARMACEUTICAL PRODUCTS</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/healthcare.jpg')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/healthcare">HEALTHCARE & PHARMACEUTICAL PRODUCTS</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/comunication.png')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">COMMUNICATION SYSTEMS</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/comunication.png')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/communicationsystems">COMMUNICATION SYSTEMS</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/broadband.jpg')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">BROADBAND</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/broadband.jpg')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/broadband">BROADBAND</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/broadcasting.jpg')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">BROADCASTING</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/broadcasting.jpg')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/broadcasting">BROADCASTING</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/elevators.jpg')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">ELEVATORS & ESCALATORS</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/elevators.jpg')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/elevators&escalators">ELEVATORS & ESCALATORS</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/construction.jpg')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">CONSTRUCTION</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/construction.jpg')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/construction">CONSTRUCTION</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/hospitality.jpg')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">HOSPITALITY</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/hospitality.jpg')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/hospitality">HOSPITALITY</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/energy.jpg')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">ENERGY</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/energy.jpg')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/energy">ENERGY</a></li></ul>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/businesses/overview/manufacturing.png')}}" alt="">
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400"><li class="text-center mt-1"><a href="">MANUFACTURING</a></li></ul>
+        <img class="h-64 w-96 rounded-lg" src="{{ asset('images/businesses/overview/manufacturing.png')}}" alt="">
+        <ul class="max-w-md space-y-1 text-blue-700 list-disc list-inside dark:text-blue-700">
+            <li class="text-center mt-1">
+                <a href="/manufacturing">MANUFACTURING</a></li></ul>
     </div>
 </div>
 
