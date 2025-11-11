@@ -37,7 +37,7 @@
 
      <hr class="border-t-2 border-gray-200 dark:border-gray-700 my-4 mx-auto w-11/12">
 
-     <!-- Education -->
+     <!-- Education Content -->
      <section class="bg-white dark:bg-gray-900">
          <div class="gap-16 items-center pt-2 px-2 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-2 lg:px-6">
              <div class="mb-15 font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -52,7 +52,7 @@
 
      <hr class="border-t-2 border-gray-200 dark:border-gray-700 my-4 mx-auto w-11/12">
 
-     <!-- Health -->
+     <!-- Health Content -->
      <section class="bg-white dark:bg-gray-900">
          <div class="gap-16 items-center pt-2 px-2 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-2 lg:px-6">
              <div class="mb-15 font-light text-gray-500 sm:text-lg dark:text-gray-400">
