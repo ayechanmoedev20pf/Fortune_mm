@@ -6,12 +6,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-// Route::get('/home',[HomeController::class,'home']);
-Route::get('/test', function () {
-    return view('test');
-});
-
-Route::get('/overview', function () {
+Route::get('/businesses/overview', function () {
     return view('businesses.overview');
 });
 
@@ -45,6 +40,9 @@ Route::get('/energy', function () {
 Route::get('/manufacturing', function () {
     return view('businesses.manufacturing');
 });
+
+
+// Company Tag Route
 Route::get('/about', function () {
     return view('companyTag.aboutUs');
 });
@@ -56,4 +54,28 @@ Route::get('/corporate-citizenship', function () {
 });
 Route::get('/our-vision', function () {
     return view('companyTag.ourVision');
+});
+
+
+// Careers Tag Route
+Route::get('/jobs', function () {
+    return view('careersTag.jobs');
+});
+Route::get('/careers/overView', function () {
+    return view('careersTag.overView');
+});
+
+// Safety And Compliance Route
+Route::get('/safetyAndCompliance', function () {
+    return view('safetyAndComplianceTag.safetyAndCompliance');
+});
+
+// Service Excellence Route
+Route::get('/serviceExcellence', function () {
+    return view('serviceExcellenceTag.serviceExcellence');
+});
+
+// Contact Us Route
+Route::get('/contactUs', function () {
+    return view('contactUs.contactUs');
 });
