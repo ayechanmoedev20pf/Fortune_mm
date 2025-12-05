@@ -16,7 +16,7 @@
 
             <!-- Logo -->
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="{{ asset('images/logo.png') }}" class="h-16" alt="Flowbite Logo" />
+                <img src="{{ asset('images/logo.png') }}" class="h-16 animate-jump" alt="Fortune Logo" />
             </a>
 
             <!-- Open Main Menu -->

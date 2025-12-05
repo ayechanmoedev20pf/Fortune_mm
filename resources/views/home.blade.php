@@ -52,64 +52,40 @@
 </head>
 
 <body>
-<div class="relative w-full h-screen z-0">
-    <div id="default-carousel" class="relative w-full h-full" data-carousel="slide">
-        <!-- Carousel wrapper -->
-        <div class="relative w-full h-full overflow-hidden">
-            <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                <img src="{{ asset('images/home/slide-01.jpg') }}" 
-                     class="absolute block w-full h-full object-cover top-0 left-0" 
-                     alt="Slide 1">
-            </div>
-            <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{ asset('images/home/slide-02.jpg') }}" 
-                     class="absolute block w-full h-full object-cover top-0 left-0" 
-                     alt="Slide 2">
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{ asset('images/home/slide-03.jpg') }}" 
-                     class="absolute block w-full h-full object-cover top-0 left-0" 
-                     alt="Slide 3">
-            </div>
-        </div>
+<section class="relative w-full h-[90vh] overflow-hidden">
 
-        <!-- Slider indicators -->
-        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3">
-            <button type="button" class="w-3 h-3 rounded-full bg-white/50" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full bg-white/50" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full bg-white/50" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        </div>
+  <!-- Image 1 -->
+  <img src="{{ asset('images/home/slide-01.jpg') }}"
+       class="absolute inset-0 w-full h-full object-cover slideshow" />
 
-        <!-- Slider controls -->
-        <button type="button" 
-                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" 
-                data-carousel-prev>
-            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/60">
-                <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                </svg>
-                <span class="sr-only">Previous</span>
-            </span>
-        </button>
-        <button type="button" 
-                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" 
-                data-carousel-next>
-            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/60">
-                <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                </svg>
-                <span class="sr-only">Next</span>
-            </span>
-        </button>
-    </div>
-</div>
+  <!-- Image 2 -->
+  <img src="{{ asset('images/home/slide-02.jpg') }}"
+       class="absolute inset-0 w-full h-full object-cover slideshow"
+       style="animation-delay: 3s;" />
 
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-12 lg:px-6">
+  <!-- Image 3 -->
+  <img src="{{ asset('images/home/slide-03.jpg') }}"
+       class="absolute inset-0 w-full h-full object-cover slideshow"
+       style="animation-delay: 6s;" />
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Text -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+    <h1 class="text-5xl font-bold mb-4">
+      Welcome to My Website
+    </h1>
+    <p class="text-xl max-w-xl">
+      Background slideshow with TailwindCSS v4
+    </p>
+  </div>
+</section>
+
+
+    <div class="items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-12 lg:px-6">
         <div class="text-black-500 sm:text-lg">
-            <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-blue-500 dark:text-black">COMMITMENT TO EXCELLENCE</h2>
+            <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-blue-500 dark:text-black animate-fade-up">COMMITMENT TO EXCELLENCE</h2>
                 <p class="mb-4">Fortune International is a privately held group in Myanmar with a
                     portfolio of companies delivering quality products and services across a range of
                     industries. What unites our company is a commitment to excellence across all our
